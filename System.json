@@ -1,3 +1,23 @@
 {
-    
+    "name": "Knight",
+    "title" : "Knight",
+    "description": "a system for playing Knight",
+    "author" : "Mnemomos",
+    "version": "0.0.1",
+    "minmumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "esmodules": [
+        "knight.js"
+    ],
+    "styles":[
+        "knight.css"
+    ],
+    "languages":[
+
+    ],
+    "gridDistance":5,
+    "gridUnits": "m",
+    "PrimaryTokenAttribute": "wounds",
+    "initiative": "3d6+@initiative"
+
 }

@@ -1,0 +1,36 @@
+{
+    "Actor":{
+
+    },
+    "Item":{
+        "types":[
+        "Weapon",
+        "Module"
+    ],
+    "templates":{
+        "itemDescription":{
+            "description":""
+        }
+    },
+    "weapon":{
+        "template":[
+            "itemDescription"
+        ],
+        "damage":0,
+        "violence":0,
+        "energie":0,
+        "effet":""
+        },
+    "Module":{
+        "template":[
+            "itemDescription"
+        ],
+        "energie":0,
+        "action":"aucune",
+        "effet":"",
+        "emplacement":""
+        
+        }
+    }
+
+}
