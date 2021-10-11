@@ -13,6 +13,11 @@
         "knight.css"
     ],
     "languages":[
+        {
+            "lang":"fr",
+            "name":"french",
+            "path": "lang/fr.json"
+        }
 
     ],
     "gridDistance": 5,

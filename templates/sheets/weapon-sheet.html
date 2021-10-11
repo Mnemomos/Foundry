@@ -4,4 +4,43 @@
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
     <p>Bonjour,monde</p>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "knight.weapon.competence"}}</th>
+                <th>{{localize "knight.weapon.combo"}}</th>
+                <th>{{localize "knight.weapon.damage"}}</th>
+                <th>{{localize "knight.weapon.violence"}}</th>
+                <th>{{localize "knight.weapon.energie"}}</th>
+                <th>{{localize "knight.weapon.effect"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name = "data.competence">
+                        {{#select data.competence}}
+                        {{#each config.competence as |name type|}}
+                        <option value="{{type}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <input name="data.combo" type = "text" value = "{{data.combo}}" data-dtype="Number"/>
+                </td>
+                <td>
+                    <input name="data.damage" type = "text" value = "{{data.damage}}" data-dtype="Number"/>
+                </td>
+                <td>
+                    <input name="data.violence" type = "text" value = "{{data.violence}}" data-dtype="Number"/>
+                </td>
+                <td>
+                    <input name="data.energie" type = "text" value = "{{data.energie}}" data-dtype="Number"/>
+                </td>
+                <td>
+                    <input name="data.effect" type = "text" value = "{{data.effect}}" data-dtype="Number"/>
+                </td>
+            </tr>
+        </table>
+        <textarea name="data.description"> {{data.description}}</textarea>
+    </div>
 </form>

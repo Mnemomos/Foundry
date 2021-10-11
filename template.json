@@ -1,7 +1,6 @@
 {
-    "Actor":{
-
-    },
+    "Actor":{},
+    
     "Item":{
         "types":[
         "Weapon",
@@ -16,12 +15,14 @@
         "template":[
             "itemDescription"
         ],
+        "competence":"",
+        "combo":"",
         "damage":0,
         "violence":0,
         "energie":0,
-        "effet":""
+        "effect":""
         },
-    "Module":{
+    "module":{
         "template":[
             "itemDescription"
         ],

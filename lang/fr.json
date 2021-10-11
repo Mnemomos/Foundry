@@ -1,0 +1,26 @@
+{
+    "knight":{
+        "knight.competence": {
+            "none":"",
+            "deplacement": "deplacement",
+            "strengh" : "force",
+            "endurance" : "endurance",
+            
+            "aggressiveness" : "hargne",
+            "fighting" : "combat",
+            "instinct" : "instinct",
+        
+            "shooting" : "tir",
+            "knowledge" : "savoir",
+            "technique" : "technique",
+        
+            "aura" : "aura",
+            "speech" : "parole",
+            "composure" : "sang-froid",
+        
+            "stealth" : "discretion",
+            "dexterity" : "dexteritee",
+            "perception" : "perception"
+        }
+    }
+}
