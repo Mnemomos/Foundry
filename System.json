@@ -15,9 +15,9 @@
     "languages":[
 
     ],
-    "gridDistance":5,
+    "gridDistance": 5,
     "gridUnits": "m",
     "PrimaryTokenAttribute": "wounds",
-    "initiative": "3d6+@initiative"
+    "initiative": "3d6 + @initiative"
 
 }
